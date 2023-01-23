@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Work+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
 .main-clr {
     background-color: #B68C5A !important;
+}
+
+.main-font {
+    font-family: 'EB Garamond', serif;
+}
+
+.banner-title {
+    font-size: 52px;
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+    z-index: 10;
+}
+
+/* -----------------------------------
+    Media Queries
+-------------------------------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .banner-title {
+        font-size: 32px;
+    }
 }
